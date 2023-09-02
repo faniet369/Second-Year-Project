@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.251" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lettery.controllers.CreateAccOfficerController">
+   <children>
+      <PasswordField fx:id="password" layoutX="392.0" layoutY="268.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="44.0" prefWidth="250.0" AnchorPane.leftAnchor="392.0" AnchorPane.rightAnchor="158.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="confirmPassword" layoutX="396.0" layoutY="346.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="44.0" prefWidth="250.0" AnchorPane.leftAnchor="392.0" AnchorPane.rightAnchor="158.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="backBtn" layoutX="696.0" layoutY="533.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#handleBackBtnOnAction" prefHeight="40.0" prefWidth="80.0" text="Back" AnchorPane.bottomAnchor="23.0" AnchorPane.rightAnchor="24.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="239.0" layoutY="197.0" text="Username :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="275.0" text="Password :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="okBtn" layoutX="482.0" layoutY="418.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#handleOkBtnOnAction" prefHeight="40.0" prefWidth="80.0" text="OK" AnchorPane.bottomAnchor="138.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="170.0" layoutY="353.0" text="Confirm password :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="120.0" text="Officer's name :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="officerName" layoutX="392.0" layoutY="113.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="44.0" prefWidth="250.0" AnchorPane.leftAnchor="392.0" AnchorPane.rightAnchor="158.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="username" layoutX="392.0" layoutY="190.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="44.0" prefWidth="250.0" AnchorPane.leftAnchor="392.0" AnchorPane.rightAnchor="158.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

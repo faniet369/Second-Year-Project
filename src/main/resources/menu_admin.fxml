@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.251" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lettery.controllers.MenuAdminController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="370.0" layoutX="228.0" layoutY="113.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="345.0" AnchorPane.bottomAnchor="117.0" AnchorPane.topAnchor="113.0" />
+      <Button fx:id="logoutBtn" layoutX="676.0" layoutY="534.0" mnemonicParsing="false" onAction="#handleLogoutBtnOnAction" prefHeight="44.0" prefWidth="97.0" text="Logout" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="676.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="officerListBtn" layoutX="265.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleOfficerListBtnOnAction" prefHeight="40.0" prefWidth="270.0" text="Officer list" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="265.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="createAccOfficerBtn" layoutX="265.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleCreateAccOfficerBtnOnAction" prefHeight="40.0" prefWidth="270.0" text="Create account for officer" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="265.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="changePassBtn" layoutX="265.0" layoutY="173.0" mnemonicParsing="false" onAction="#handleChangePassBtnOnAction" prefHeight="40.0" prefWidth="270.0" text="Change password" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="265.0" AnchorPane.topAnchor="173.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
